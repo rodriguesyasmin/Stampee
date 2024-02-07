@@ -3,9 +3,11 @@
 @import url("./variables/mediaqueries.css");
 
 /* Couleurs */
+@import url("./variables/colors.css");
 /* Typo */
+@import url("./variables/typography.css");
 /* Espacement */
-
+@import url("./variables/spacing.css");
 /* Composantes individuelles (Ex: bouton) */
 
 /* Modules/mise en page spéciale (Ex: Grilles, formulaires)*/
