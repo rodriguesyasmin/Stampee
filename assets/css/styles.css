@@ -9,6 +9,7 @@
 /* Espacement */
 @import url("./variables/spacing.css");
 /* Composantes individuelles (Ex: bouton) */
+@import url(./components/footer.css);
 
 /* Modules/mise en page spéciale (Ex: Grilles, formulaires)*/
 
