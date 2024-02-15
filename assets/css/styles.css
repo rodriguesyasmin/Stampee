@@ -8,7 +8,15 @@
 @import url("./variables/typography.css");
 /* Espacement */
 @import url("./variables/spacing.css");
+
+
+
+
+
 /* Composantes individuelles (Ex: bouton) */
+
+/*header*/
+@import url("./components/header.css");
 
 /* Modules/mise en page spéciale (Ex: Grilles, formulaires)*/
 
