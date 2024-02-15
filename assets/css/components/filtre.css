@@ -1,0 +1,15 @@
+.filters{
+    max-width: 20vw;
+    padding:  var(--spacing-l) ;
+    input[type="number"] {
+      max-width: 50%;
+      }
+      
+    & .min-max{
+        display: flex;
+        max-width: 100%;
+    }
+    & h2{
+        padding: var(--spacing-s) 0;
+    }
+}
