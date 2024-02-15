@@ -1,0 +1,25 @@
+.catalogue-main{
+    /* background-color: var( --color-grayish-blue); */
+}
+
+h1{
+    text-align: center;
+}
+
+.catalogue{
+   margin:var(--spacing-s) var(--spacing-l);
+   width: 100%;
+   padding:  var(--spacing-l) 0;
+  
+}
+
+
+.grid-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--spacing-l);
+
+    @media (max-width: 480px) {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
