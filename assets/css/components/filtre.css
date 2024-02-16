@@ -1,15 +1,129 @@
-.filters{
-    max-width: 20vw;
-    padding:  var(--spacing-l) ;
-    input[type="number"] {
-      max-width: 50%;
+.filters {
+  max-width: 20vw;
+  padding-left: var(--spacing-l);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  & .contenu-filter {
+    position: sticky;
+    top: 0;
+    padding: 10px;
+    z-index: 1;
+  }
+  & h2 {
+    padding: var(--spacing-s) 0;
+    color: var(--color-dar-red-1);
+  }
+  & ul {
+    list-style: none;
+    & li {
+      padding: var(--spacing-s) 0;
+    }
+    & li a {
+      text-decoration: none;
+      color: var(--color-dark-red);
+      transition: all 0.3s ease;
+    }
+    & :hover {
+      color: var(--color-brown);
+      transform: scale(1.02);
+    }
+  }
+
+  & .subscribeButton {
+    position: sticky;
+    top: var();
+    bottom: var(--spacing-s);
+    left: 0;
+    color: var(--color-brown);
+    padding: var(--spacing-s);
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-background);
+    border-radius: 5px;
+
+    & label {
+      padding: var(--spacing-s);
+    }
+
+    & #emailInput {
+      padding: var(--spacing-s);
+      margin: var(--spacing-s) var(--spacing-s);
+      border: none;
+      border-radius: 5px;
+    }
+
+    & #subscribeButton {
+      background-color: var(--color-red);
+      color: #fff;
+      padding: 8px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      &:hover {
+        background-color: var(--color-dark-red);
+        box-shadow: 2px 2px 8px var(--color-brown);
+        transform: scale(1.1);
       }
-      
-    & .min-max{
-        display: flex;
+    }
+  }
+  & .min-max {
+    display: flex;
+    flex-wrap: wrap;
+
+    & label {
+      padding: var(--spacing-xs);
+    }
+
+    & input[type="number"] {
+      max-width: 20%;
+      display: inline-block;
+      margin-bottom: var(--spacing-s);
+    }
+  }
+
+  @media (max-width: 840px) {
+    & .min-max {
+      & label {
+        flex-basis: 100%;
+      }
+
+      & input[type="number"] {
         max-width: 100%;
+      }
     }
-    & h2{
-        padding: var(--spacing-s) 0;
+
+    input[type="number"] {
+      display: inline-block;
+      max-width: 50%;
+      margin-bottom: var(--spacing-s);
     }
+  }
+
+  @media (max-width: 480px) {
+    & .min-max {
+      & label {
+        flex-basis: 100%;
+      }
+
+      & input[type="number"] {
+        max-width: 100%;
+      }
+    }
+
+    & .subscribeButton {
+      display: none;
+    }
+    & input[type="number"] {
+      max-width: 100%;
+      margin-bottom: var(--spacing-s);
+    }
+    & .contenu-filter,
+    h2 {
+      font-size: smaller;
+    }
+  }
 }

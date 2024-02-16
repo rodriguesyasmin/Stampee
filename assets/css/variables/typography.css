@@ -1,26 +1,28 @@
 @font-face {
-    font-family: 'PlayfairDisplay';
-    src: url("../../fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf") ;
+  font-family: "PlayfairDisplay";
+  src: url("../../fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf");
 }
 :root {
-    --police-principale: "PlayFairDisplay";
-    --police-secondaire: "Montserrat";
-    --police-xxs: 0.694rem;
-    --police-xs: 0.833rem;
-    --police-s: 1rem;
-    --police-xxxl: 10rem;
+  --police-principale: "PlayFairDisplay";
+  --police-secondaire: "Montserrat";
+  --police-xxs: 0.694rem;
+  --police-xs: 0.833rem;
+  --police-s: 1rem;
+  --police-xxxl: 10rem;
 }
 
 body,
 html {
-    font-family: var(--police-secondaire);
+  font-family: var(--police-secondaire);
 }
 
-h1, h2, h3 {
-    font-family:var(--police-principale) ;
-    font-size: var(--police-s);
+h1,
+h2,
+h3 {
+  font-family: var(--police-principale);
+  font-size: var(--police-s);
 }
 
 .ultra-grand-titre {
-    font-size: var(--police-xxxl);
+  font-size: var(--police-xxxl);
 }

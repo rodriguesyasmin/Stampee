@@ -1,52 +1,45 @@
-
-
 footer {
-    background-color: var(--color-background);
+  background-color: var(--color-background);
+  color: var(--dark-red);
+}
+.info {
+  padding: var(--spacing-l);
+  display: flex;
+
+  & li,
+  a {
+    padding: var(--spacing-s);
     color: var(--dark-red);
+    text-decoration: none;
   }
-  .info {
-    padding: var(--spacing-l);
+  & a:hover {
+    text-decoration: underline;
+  }
+  & .adresse {
+    padding: var(--spacing-xs);
+    padding-right: var(--spacing-l);
     display: flex;
-  
-    & li,
-    a {
-      padding: var(--spacing-s);
-      color: var(--dark-red);
-      text-decoration: none;
-    }
-    & a:hover {
-      text-decoration: underline;
-    }
-    & .adresse {
-      padding: var(--spacing-xs);
-      padding-right: var(--spacing-l);
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-    }
-    & .adresse a {
-      padding: 0;
-      color: var(--color-brown);
-    }
+    flex-direction: column;
+    justify-content: space-between;
   }
-  .icones {
-    text-align: right;
-    padding: var(--spacing-l);
-  
-    & i {
-      padding: var(--spacing-xs);
-    }
-    & i:hover {
-      cursor: pointer;
-      color: var(--color-brown);
-    }
+  & .adresse a {
+    padding: 0;
+    color: var(--color-brown);
   }
-  .droits {
-    text-align: center;
+}
+.icones {
+  text-align: right;
+  padding: var(--spacing-l);
+
+  & i {
     padding: var(--spacing-xs);
   }
-  
-  
-  
-  
-  
+  & i:hover {
+    cursor: pointer;
+    color: var(--color-brown);
+  }
+}
+.droits {
+  text-align: center;
+  padding: var(--spacing-xs);
+}
