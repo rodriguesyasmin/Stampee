@@ -20,7 +20,6 @@
 
 /* Modules/mise en page spéciale (Ex: Grilles, formulaires)*/
 
-
 @import url("./layout/general.css");
 @import url("./layout/catalogue.css");
 @import url("./layout/produit.css");
