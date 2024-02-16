@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'PlayfairDisplay';
-    src: url("../../fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf") ;
+  font-family: "PlayfairDisplay";
+  src: url("../../fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf");
 }
 :root {
     --police-principale: "PlayFairDisplay";
@@ -38,4 +38,8 @@ h3{
     font-size: var(--police-s);
     line-height: var(--spacing-l); 
     text-transform: uppercase;
+}
+
+.ultra-grand-titre {
+  font-size: var(--police-xxxl);
 }
