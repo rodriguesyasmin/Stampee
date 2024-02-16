@@ -1,0 +1,100 @@
+
+
+/* 
+.fiche-du-produit{
+    
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    padding: var(--spacing-l);
+    background-color: var(--color-background);
+    
+    .img-principale{
+        max-width:60%;
+    }
+    .container-petites-img{
+        
+        .img-secondaire{
+            max-width: 20%;
+        }
+    }
+   */
+    
+
+
+ 
+.fiche-du-produit {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding:var(--spacing-l);
+        
+ 
+
+}
+
+.container-img {
+    flex: 1;
+   
+}
+
+.img-principale {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+}
+
+.container-petites-img {
+    display: flex;
+    justify-content: space-around;
+    margin-top: var(--spacing-m);
+}
+
+.img-secondaire {
+    max-width: 15%;
+    max-height: 15%;
+    object-fit: cover;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+.img-secondaire:hover {
+    opacity: 0.7;
+}
+
+.description {
+    
+    flex: 0.7;
+    padding: 0 var(--spacing-l);
+    line-height: var(--spacing-l);
+    color: var(--color-dark-red);
+    & .achat{
+        margin: var(--spacing-m) 0;
+        display: flex;
+        flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+}
+.timbres-similaires{
+    padding: var(--spacing-l) ;
+    h2{
+        text-align: center;
+    }
+}
+
+
+
+
+
+@media (max-width: 480px) {
+    .fiche-du-produit{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+ }
+
+/* Adicione estilos adicionais conforme necessário */
