@@ -1,64 +1,57 @@
+header {
+  background-color: var(--color-background);
 
-header{
-    background-color: var(--color-background);
-   
-    .header-container {
-         padding:0 var(--spacing-l);
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        & img{
-            max-width: var(--spacing-xxl);
+  .header-container {
+    padding: 0 var(--spacing-l);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    & img {
+      max-width: var(--spacing-xxl);
+    }
+    & form {
+      margin-left: auto; /* Move o formulário para a direita */
+      & input {
+        padding: var(--spacing-s);
+        border-radius: var(--spacing-m);
+      }
+      button {
+        border: none;
+      }
+    }
+    & .icon-container {
+      display: flex;
+      justify-content: space-between;
+      i {
+        margin-left: var(--spacing-m);
+      }
+      .fa-solid {
+        color: var(--color-brown);
+        &:hover {
+          color: var(--color-dark-red);
         }
-        & form {  
-            margin-left: auto; /* Move o formulário para a direita */
-            & input{  
-                padding: var(--spacing-s);
-                border-radius:var(--spacing-m) ;
+      }
+    }
+  }
 
-            }
-          button{
-                border:none;
+  & .nav-liens {
+    background-color: var(--color-brown);
+    padding: var(--spacing-l);
+
+    & ul {
+      display: flex;
+      flex-direction: row;
+
+      & li {
+        margin-right: var(--spacing-m);
+        & a {
+          color: var(--color-neutral-gray);
+          text-decoration: none;
+          &:hover {
+            color: var(--color-dark-red);
           }
-             
         }
-        & .icon-container{
-            display: flex;
-            justify-content:space-between ;
-            i{
-                margin-left: var(--spacing-m);       
-               }
-               .fa-solid{ 
-                color:var(--color-brown);
-                &:hover{
-                    color: var(--color-dark-red);
-                }
-                
-            }
-        }
+      }
     }
-    
-    
-    & .nav-liens {
-        background-color: var(--color-brown);
-        padding: var(--spacing-l);
-
-        & ul{
-            display: flex;
-            flex-direction: row;
-            
-            & li{
-                margin-right: var(--spacing-m);
-                & a{
-                    color: var(--color-neutral-gray);
-                    text-decoration: none;
-                    &:hover{
-                        color: var(--color-dark-red);
-                    }
-                }
-            }
-        }
-    }
-
-   
+  }
 }

@@ -6,11 +6,6 @@
     <title>Catalogue</title>
     <link rel="stylesheet" href="assets/css/styles.css" />
     <script src="assets/js/main.js" defer></script>
-
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Produit</title>
-    <link rel="stylesheet" href="assets/css/styles.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -22,95 +17,246 @@
   </head>
 
   <body>
+    <header>
+      <div class="header-container">
+        <img src="assets/img/logos/logoLord 1.png" alt="logos" />
+        <form action="/" method="get">
+          <label for="recherche" class="sr-only">Rechercher :</label>
+          <input
+            type="text"
+            id="recherche"
+            name="recherche"
+            placeholder="Rechercher"
+          />
+          <button type="submit" class="search-button">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </form>
+        <div class="icon-container">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <i class="fa-solid fa-user"></i>
+        </div>
+      </div>
+      <nav class="nav-liens">
+        <ul>
+          <li><a href="/encheres">Enchères</a></li>
+          <li><a href="">Contact</a></li>
+          <li><a href="">Devenir Membre</a></li>
+          <li><a href="">A propos</a></li>
+        </ul>
+      </nav>
+    </header>
     <main class="catalogue-main">
       <h1>CATALOGUE</h1>
       <div class="contenu-catalogue">
         <aside class="filters">
-          <h2>COLLECTIONS</h2>
-          <ul>
-            <li><a href="">Collection du Lord</a></li>
-            <li><a href="">Collection rare</a></li>
-            <li><a href="">Collection Stampee</a></li>
-            <li><a href="">Collection ##</a></li>
-          </ul>
-          <h2>MEILLEURS VENTES</h2>
-          <h2>PRIX</h2>
-          <div class="min-max">
-            <input type="number" name="number" placeholder="min" />
-            <input type="number" name="number" placeholder="max" />
+          <div class="contenu-filter">
+            <h2>COLLECTIONS</h2>
+            <ul>
+              <li><a href="">Collection du Lord</a></li>
+              <li><a href="">Collection rare</a></li>
+              <li><a href="">Collection Stampee</a></li>
+              <li><a href="">Collection ##</a></li>
+            </ul>
+            <h2>MEILLEURS VENTES</h2>
+            <h2>PRIX</h2>
+            <div class="min-max">
+              <label for=""> Min: </label
+              ><input type="number" name="number" placeholder="" />
+              <label for="">Max:</label
+              ><input type="number" name="number" placeholder="" />
+            </div>
+          </div>
+
+          <div class="subscribeButton">
+            <label for="emailInput">Abonnez-vous à l'infolettre</label>
+            <input type="email" id="emailInput" placeholder="courriel" />
+            <button id="subscribeButton">Inscrever-se</button>
           </div>
         </aside>
         <section class="catalogue">
-        
-        
           <section class="grid-cards catalogue-encheres">
             <div class="card">
+              <div class="card__title"><h2>Titre</h2></div>
               <div class="card__image">
                 <img src="/assets/img/logos/logoLord.png" alt="" />
-                <h6>Lien du timbre</h6>
               </div>
-              <div class="card__title">Titree</div>
+              <div class="card__id">Id:<small>878787878</small></div>
+              <div class="card__prix">Prix: <small>8950$</small></div>
+              <div class="hourglass">
+                <div class="card__temps">
+                  Temps restant: <small> 6h39min</small>
+                </div>
+                <i class="fa-regular fa-hourglass-half"></i>
+              </div>
             </div>
             <div class="card">
+              <div class="card__title"><h2>Titre</h2></div>
               <div class="card__image">
                 <img src="/assets/img/logos/logoLord.png" alt="" />
-                <h6>Lien du timbre</h6>
               </div>
-              <div class="card__title">Titree</div>
+              <div class="card__id">Id:<small>878787878</small></div>
+              <div class="card__prix">Prix: <small>8950$</small></div>
+              <div class="hourglass">
+                <div class="card__temps">
+                  Temps restant: <small> 6h39min</small>
+                </div>
+                <i class="fa-regular fa-hourglass-half"></i>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__title"><h2>Titre</h2></div>
+              <div class="card__image">
+                <img src="/assets/img/logos/logoLord.png" alt="" />
+              </div>
+              <div class="card__id">Id:<small>878787878</small></div>
+              <div class="card__prix">Prix: <small>8950$</small></div>
+              <div class="hourglass">
+                <div class="card__temps">
+                  Temps restant: <small> 6h39min</small>
+                </div>
+                <i class="fa-regular fa-hourglass-half"></i>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__title"><h2>Titre</h2></div>
+              <div class="card__image">
+                <img src="/assets/img/logos/logoLord.png" alt="" />
+              </div>
+              <div class="card__id">Id:<small>878787878</small></div>
+              <div class="card__prix">Prix: <small>8950$</small></div>
+              <div class="hourglass">
+                <div class="card__temps">
+                  Temps restant: <small> 6h39min</small>
+                </div>
+                <i class="fa-regular fa-hourglass-half"></i>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__title"><h2>Titre</h2></div>
+              <div class="card__image">
+                <img src="/assets/img/logos/logoLord.png" alt="" />
+              </div>
+              <div class="card__id">Id:<small>878787878</small></div>
+              <div class="card__prix">Prix: <small>8950$</small></div>
+              <div class="hourglass">
+                <div class="card__temps">
+                  Temps restant: <small> 6h39min</small>
+                </div>
+                <i class="fa-regular fa-hourglass-half"></i>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__title"><h2>Titre</h2></div>
+              <div class="card__image">
+                <img src="/assets/img/logos/logoLord.png" alt="" />
+              </div>
+              <div class="card__id">Id:<small>878787878</small></div>
+              <div class="card__prix">Prix: <small>8950$</small></div>
+              <div class="hourglass">
+                <div class="card__temps">
+                  Temps restant: <small> 6h39min</small>
+                </div>
+                <i class="fa-regular fa-hourglass-half"></i>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__title"><h2>Titre</h2></div>
+              <div class="card__image">
+                <img src="/assets/img/logos/logoLord.png" alt="" />
+              </div>
+              <div class="card__id">Id:<small>878787878</small></div>
+              <div class="card__prix">Prix: <small>8950$</small></div>
+              <div class="hourglass">
+                <div class="card__temps">
+                  Temps restant: <small> 6h39min</small>
+                </div>
+                <i class="fa-regular fa-hourglass-half"></i>
+              </div>
             </div>
             <div class="card">
+              <div class="card__title"><h2>Titre</h2></div>
               <div class="card__image">
                 <img src="/assets/img/logos/logoLord.png" alt="" />
-                <h6>Lien du timbre</h6>
               </div>
-              <div class="card__title">Titree</div>
+              <div class="card__id">Id:<small>878787878</small></div>
+              <div class="card__prix">Prix: <small>8950$</small></div>
+              <div class="hourglass">
+                <div class="card__temps">
+                  Temps restant: <small> 6h39min</small>
+                </div>
+                <i class="fa-regular fa-hourglass-half"></i>
+              </div>
             </div>
+
             <div class="card">
+              <div class="card__title"><h2>Titre</h2></div>
               <div class="card__image">
                 <img src="/assets/img/logos/logoLord.png" alt="" />
-                <h6>Lien du timbre</h6>
               </div>
-              <div class="card__title">Titree</div>
+              <div class="card__id">Id:<small>878787878</small></div>
+              <div class="card__prix">Prix: <small>8950$</small></div>
+              <div class="hourglass">
+                <div class="card__temps">
+                  Temps restant: <small> 6h39min</small>
+                </div>
+                <i class="fa-regular fa-hourglass-half"></i>
+              </div>
             </div>
+
             <div class="card">
+              <div class="card__title"><h2>Titre</h2></div>
               <div class="card__image">
                 <img src="/assets/img/logos/logoLord.png" alt="" />
-                <h6>Lien du timbre</h6>
               </div>
-              <div class="card__title">Titree</div>
+              <div class="card__id">Id:<small>878787878</small></div>
+              <div class="card__prix">Prix: <small>8950$</small></div>
+              <div class="hourglass">
+                <div class="card__temps">
+                  Temps restant: <small> 6h39min</small>
+                </div>
+                <i class="fa-regular fa-hourglass-half"></i>
+              </div>
             </div>
+
             <div class="card">
+              <div class="card__title"><h2>Titre</h2></div>
               <div class="card__image">
                 <img src="/assets/img/logos/logoLord.png" alt="" />
-                <h6>Lien du timbre</h6>
               </div>
-              <div class="card__title">Titree</div>
+              <div class="card__id">Id:<small>878787878</small></div>
+              <div class="card__prix">Prix: <small>8950$</small></div>
+              <div class="hourglass">
+                <div class="card__temps">
+                  Temps restant: <small> 6h39min</small>
+                </div>
+                <i class="fa-regular fa-hourglass-half"></i>
+              </div>
             </div>
+
             <div class="card">
+              <div class="card__title"><h2>Titre</h2></div>
               <div class="card__image">
                 <img src="/assets/img/logos/logoLord.png" alt="" />
-                <h6>Lien du timbre</h6>
               </div>
-              <div class="card__title">Titree</div>
-            </div>
-            <div class="card">
-              <div class="card__image">
-                <img src="/assets/img/logos/logoLord.png" alt="" />
-                <h6>Lien du timbre</h6>
+              <div class="card__id">Id:<small>878787878</small></div>
+              <div class="card__prix">Prix: <small>8950$</small></div>
+              <div class="hourglass">
+                <div class="card__temps">
+                  Temps restant: <small> 6h39min</small>
+                </div>
+                <i class="fa-regular fa-hourglass-half"></i>
               </div>
-              <div class="card__title">Titree</div>
-            </div>
-            <div class="card">
-              <div class="card__image">
-                <img src="/assets/img/logos/logoLord.png" alt="" />
-                <h6>Lien du timbre</h6>
-              </div>
-              <div class="card__title">Titree</div>
             </div>
           </section>
         </section>
-        
       </div>
+      <div class="plus-timbres">Plus de timbres</div>
     </main>
     <footer>
       <div class="info">
@@ -138,9 +284,9 @@
       </div>
 
       <div class="icones">
-        <i class="fa-brands fa-facebook fa-lg"></i>
-        <i class="fa-brands fa-instagram fa-lg"></i>
-        <i class="fa-regular fa-envelope fa-lg"></i>
+        <i class="fa-brands fa-facebook fa-2x"></i>
+        <i class="fa-brands fa-instagram fa-2x"></i>
+        <i class="fa-regular fa-envelope fa-2x"></i>
       </div>
 
       <p class="droits">© 2024 Team Rodrigue's. Tous droits réservés.</p>

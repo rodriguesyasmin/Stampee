@@ -9,10 +9,6 @@
 /* Espacement */
 @import url("./variables/spacing.css");
 
-
-
-
-
 /* Composantes individuelles (Ex: bouton) */
 @import url(./components/filtre.css);
 
@@ -23,7 +19,6 @@
 @import url("./components/header.css");
 
 /* Modules/mise en page spéciale (Ex: Grilles, formulaires)*/
-
 
 /* Modules/mise en page spéciale (Ex: Grilles, formulaires)*/
 
