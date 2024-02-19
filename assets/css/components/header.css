@@ -34,13 +34,8 @@ header {
     }
   }
 
-  & .nav-liens {
-    background-color: var(--color-brown);
-    padding: var(--spacing-l);
 
-header{
-    background-color: var(--color-background);
-   
+
     .header-container {
          padding:0 var(--spacing-l);
         display: flex;
@@ -78,7 +73,7 @@ header{
         }
     }
     
-    
+
     & .nav-liens {
         background-color: var(--color-brown);
         padding: var(--spacing-l);
@@ -86,12 +81,15 @@ header{
         & ul{
             display: flex;
             flex-direction: row;
-            
+
             & li{
+                color: aliceblue;
                 margin-right: var(--spacing-m);
+          
                 & a{
                     color: var(--color-neutral-gray);
                     text-decoration: none;
+
                     &:hover{
                         color: var(--color-dark-red);
                     }
@@ -100,6 +98,13 @@ header{
         }
     }
 
-}
-}
-}
+  }
+  @media (max-width: 480px) {
+      
+        input{
+          display: none;
+        }
+      
+      
+        
+  }
