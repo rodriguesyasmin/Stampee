@@ -5,7 +5,6 @@
   flex-direction: column;
   justify-content: space-between;
 
-
   & .contenu-filter {
     padding: var(--spacing-s);
   }
