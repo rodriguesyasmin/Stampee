@@ -11,9 +11,11 @@ header {
     }
     & form {
       margin-left: auto; /* Move o formulário para a direita */
+      
       & input {
         padding: var(--spacing-s);
         border-radius: var(--spacing-m);
+        width: 350px;
       }
       button {
         border: none;
@@ -37,69 +39,28 @@ header {
   & .nav-liens {
     background-color: var(--color-brown);
     padding: var(--spacing-l);
-
-header{
-    background-color: var(--color-background);
-   
-    .header-container {
-         padding:0 var(--spacing-l);
+    & ul{
         display: flex;
-        align-items: center;
-        justify-content: space-between;
-        & img{
-            max-width: var(--spacing-xxl);
-        }
-        & form {  
-            margin-left: auto; 
-            & input{  
-                min-width: 350px;
-                padding: var(--spacing-s);
-                border-radius:var(--spacing-m) ;
-            }
-          button{
-                border:none;
-          }
-             
-        }
-        & .icon-container{
-            display: flex;
-            justify-content:space-between ;
-            i{
-                margin-left: var(--spacing-m);       
-               }
-               .fa-solid{ 
-                color:var(--color-brown);
+        flex-direction: row;
+
+        & li{
+
+            margin-right: var(--spacing-m);
+      
+            & a{
+                color: var(--color-neutral-gray);
+                text-decoration: none;
+
                 &:hover{
                     color: var(--color-dark-red);
-                    cursor:pointer;
-                }
-                
-            }
-        }
-    }
-    
-    
-    & .nav-liens {
-        background-color: var(--color-brown);
-        padding: var(--spacing-l);
-
-        & ul{
-            display: flex;
-            flex-direction: row;
-            
-            & li{
-                margin-right: var(--spacing-m);
-                & a{
-                    color: var(--color-neutral-gray);
-                    text-decoration: none;
-                    &:hover{
-                        color: var(--color-dark-red);
-                    }
                 }
             }
         }
     }
-
-}
-}
-}
+  }
+  }
+  @media (max-width: 480px) {
+    input{
+      display: none;
+    }
+  }
