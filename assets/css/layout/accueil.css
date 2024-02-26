@@ -1,11 +1,58 @@
 .hero-banner{
-    background-color: rgba(137, 43, 226, 0.34);
+    background-image: url('../../img/hero-banner/hero-banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     padding: var(--spacing-l);
-    & h1{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    filter: brightness(0.7);
+    color: azure;
+    
+    h1{
         text-align: center;
+        color: var(--color-neutral-gray);
+    } .decouvrir{
+         p{
+            width: 50%;
+            line-height: var(--spacing-l);
+        }
+        .btn-decouvrir{
+            
+        }
     }
-    & p{
-        
+  
+
+}
+.participez-encheres{
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+   padding: var(--spacing-l);
+    .participez{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        p{
+            width: 50%;
+            line-height: var(--spacing-l);
+        }
+        h2{
+
+        }
     }
- 
+    .decouvrir{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: end;
+        img{
+           width: 35vw;
+           border-radius: var(--spacing-l);
+        }
+      
+    }
+
 }
