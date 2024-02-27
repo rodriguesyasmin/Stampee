@@ -7,7 +7,7 @@ header {
     align-items: center;
     justify-content: space-between;
     & img {
-      max-width: var(--spacing-xxl);
+      max-width: 6vw;
     }
     & form {
       margin-left: auto; /* Move o formulário para a direita */
@@ -62,6 +62,13 @@ header {
   }
   }
   @media (max-width: 480px) {
+    .header-container{
+      min-height:100px;
+      img{
+        min-width: 15vw;
+      }
+    }
+
     input{
       display: none;
     }
