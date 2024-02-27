@@ -23,5 +23,9 @@
 @import url("./layout/general.css");
 @import url("./layout/catalogue.css");
 @import url("./layout/produit.css");
+
+@import url("./layout/accueil.css");
+
 @import url(./layout/mission.css);
+
 /* Exceptions pour certaines pages */
