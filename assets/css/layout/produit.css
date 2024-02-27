@@ -77,7 +77,7 @@
        align-items: center;
     }
 }
-.timbres-similaires{
+.container-timbres{
     padding: var(--spacing-l) ;
     h2{
         text-align: center;

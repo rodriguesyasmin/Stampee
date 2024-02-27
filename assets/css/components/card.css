@@ -16,6 +16,9 @@
       color: var(--color-failure);
     }
   }
+  & h2 {
+    font-size: var(--police-s);
+  }
   & .card__id,
   .card__prix {
     padding: var(--spacing-xs);
