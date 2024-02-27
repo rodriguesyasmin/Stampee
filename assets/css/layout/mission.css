@@ -26,7 +26,6 @@
       transition: all 0.3s ease;
     }
     .img-lord:hover {
-      
       transform: scale(1.1);
     }
   }
@@ -75,6 +74,7 @@
       font-size: var(--police-m);
     }
     & .inscription {
+      font-family: var(--police-secondaire);
       margin: var(--spacing-l) auto;
       padding: var(--spacing-s);
       text-align: center;
