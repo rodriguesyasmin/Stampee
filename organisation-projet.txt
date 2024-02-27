@@ -1,2 +1,3 @@
-Yasmin Rodrigues : Responsable de la création du pied de page et du catalogue. - Matheus Rodrigues : En charge de la conception de l'en-tête et de la page produit
+- Yasmin Rodrigues : Responsable de la création du pied de page, catalogue et mission.
+ - Matheus Rodrigues : En charge de la conception de l'en-tête, page produit et accueil
 
