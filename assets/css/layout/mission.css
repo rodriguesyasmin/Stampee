@@ -23,6 +23,11 @@
       margin: auto;
       min-width: 65%;
       min-height: 65%;
+      transition: all 0.3s ease;
+    }
+    .img-lord:hover {
+      
+      transform: scale(1.1);
     }
   }
 
