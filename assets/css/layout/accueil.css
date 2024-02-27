@@ -4,45 +4,35 @@
     background-repeat: no-repeat;
     background-position: center;
     padding: var(--spacing-l);
-    height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     filter: brightness(0.7);
     color: azure;
     
+
+    p{
+        line-height: 1.5rem;
+        max-width: 50%;
+    }
     h1{
+
         text-align: center;
         color: var(--color-neutral-gray);
-    } .decouvrir{
-         p{
-            width: 50%;
-            line-height: var(--spacing-l);
-        }
-        .btn-decouvrir{
-            
-        }
+    } 
+      
     }
-  
+    .btn-decouvrir{
+        display: flex;
+        justify-content: flex-end;
+    }
 
-}
 .participez-encheres{
-    height: 70vh;
+    
     display: flex;
     flex-direction: row;
    padding: var(--spacing-l);
-    .participez{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        p{
-            width: 50%;
-            line-height: var(--spacing-l);
-        }
-        h2{
 
-        }
-    }
     .decouvrir{
         display: flex;
         flex-direction: column;
@@ -55,4 +45,23 @@
       
     }
 
+}
+.participez{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    p{
+        max-width: 50%;
+        line-height: var(--spacing-l);
+    }
+ 
+}
+
+
+@media (max-width: 480px) {
+    .hero-banner{
+      p{
+        
+      }
+    }
 }
