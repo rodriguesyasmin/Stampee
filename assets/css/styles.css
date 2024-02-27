@@ -1,6 +1,6 @@
 /* Variables */
 @import url("./variables/reset.css");
-@import url("./variables/mediaqueries.css");
+/* @import url("./variables/mediaqueries.css"); */
 
 /* Couleurs */
 @import url("./variables/colors.css");
@@ -26,6 +26,6 @@
 
 @import url("./layout/accueil.css");
 
-@import url(./layout/mission.css);
+@import url("./layout/mission.css");
 
 /* Exceptions pour certaines pages */

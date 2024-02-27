@@ -1,11 +1,67 @@
 .hero-banner{
-    background-color: rgba(137, 43, 226, 0.34);
+    background-image: url('../../img/hero-banner/hero-banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     padding: var(--spacing-l);
-    & h1{
-        text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    filter: brightness(0.7);
+    color: azure;
+    
+
+    p{
+        line-height: 1.5rem;
+        max-width: 50%;
     }
-    & p{
-        
+    h1{
+
+        text-align: center;
+        color: var(--color-neutral-gray);
+    } 
+      
+    }
+    .btn-decouvrir{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+.participez-encheres{
+    
+    display: flex;
+    flex-direction: row;
+   padding: var(--spacing-l);
+
+    .decouvrir{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: end;
+        img{
+           width: 35vw;
+           border-radius: var(--spacing-l);
+        }
+      
+    }
+
+}
+.participez{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    p{
+        max-width: 50%;
+        line-height: var(--spacing-l);
     }
  
+}
+
+
+@media (max-width: 480px) {
+    .hero-banner{
+      p{
+        
+      }
+    }
 }
