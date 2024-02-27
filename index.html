@@ -1,174 +1,160 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Produit</title>
-    <link rel="stylesheet" href="assets/css/styles.css" />
-    <link
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Produit</title>
+        <link rel="stylesheet" href="assets/css/styles.css" />
+        <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
       integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <script src="assets/js/main.js" defer></script>
-  </head>
-  <body>
-    <header>
-      <div class="header-container">
-        <a href="/"
-          ><img src="assets/img/logos/logoLord 1.png" alt="logos"
-        /></a>
-        <form action="/" method="get">
-          <label for="recherche" class="sr-only">Rechercher :</label>
-          <input
-            type="text"
-            id="recherche"
-            name="recherche"
-            placeholder="Rechercher"
-          />
-          <button type="submit" class="search-button">
-            <i class="fa-solid fa-magnifying-glass"></i>
-          </button>
-        </form>
-        <div class="icon-container">
-          <i class="fa-solid fa-cart-shopping"></i>
-          <i class="fa-solid fa-user"></i>
-        </div>
-      </div>
-      <nav class="nav-liens">
-        <ul>
-          <li><a href="/catalogue.html">Enchères</a></li>
-          <li><a href="/">Contact</a></li>
-          <li><a href="/">Devenir Membre</a></li>
-          <li><a href="/">A propos</a></li>
-        </ul>
-      </nav>
-    </header>
+        <script src="assets/js/main.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <div class="header-container">
+                <a href="/"><img src="assets/img/logos/logoLord 1.png" alt="logos"></a>
+                <form action="/" method="get">
+                    <label for="recherche" class="sr-only">Rechercher :</label>
+                        <input type="text" id="recherche" name="recherche" placeholder="Rechercher">
+                        <button type="submit" class="search-button">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                </form>
+                <div class="icon-container">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-solid fa-user"></i>
+                </div>
+            </div>
+            <nav class="nav-liens">
+                <ul>
+                    <li><a href="/catalogue.html">Enchères</a></li>
+                    <li><a href="/">Contact</a></li>
+                    <li><a href="/">Devenir Membre</a></li>
+                    <li><a href="/">A propos</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <main>
-      <section class="hero-banner">
-        <h1>Explorez le Monde des Enchères de Timbres avec Stampee</h1>
-        <p>
-          Lord Reginald Stampee, Duc de Worcestershear, est une personnalité de
-          renom dans le domaine de la philatélie britannique. Il est né en 1945
-          au sein d'une famille aristocratique et a découvert sa passion pour
-          les timbres dès son plus jeune âge, grâce à son grand-père qui lui a
-          offert sa première collection de timbres.
-        </p>
-        <div class="btn-decouvrir">
-          <button class="decouvrir-encheres">Découvrir les Enchères</button>
-        </div>
-      </section>
-      <section class="container-timbres">
-        <h2>Enchères actives</h2>
-        <div class="carrousel">
-          <i class="fa-solid fa-chevron-left fa-2x"></i>
-          <div class="carrousel__card">
-            <div class="carrousel__title"><h2>Titre</h2></div>
-            <div class="carrousel__image">
-              <img src="/assets/img/stamp/england-london.png" alt="" />
-            </div>
-            <div class="carrousel__id">Id:<small>878787878</small></div>
-            <div class="carrousel__prix">Prix: <small>8950$</small></div>
-            <div class="hourglass">
-              <div class="carrousel__temps">
-                Temps restant: <small> 6h39min</small>
-              </div>
-              <i class="fa-regular fa-hourglass-half"></i>
-            </div>
-          </div>
-          <div class="carrousel__card">
-            <div class="carrousel__title"><h2>Titre</h2></div>
-            <div class="carrousel__image">
-              <img
-                src="/assets/img/stamp/forbidden-city.png"
-                alt="timbre forbidden city"
-              />
-            </div>
-            <div class="carrousel__id">Id:<small>878787878</small></div>
-            <div class="carrousel__prix">Prix: <small>8950$</small></div>
-            <div class="hourglass">
-              <div class="carrousel__temps">
-                Temps restant: <small> 6h39min</small>
-              </div>
-              <i class="fa-regular fa-hourglass-half"></i>
-            </div>
-          </div>
-          <div class="carrousel__card">
-            <div class="carrousel__title"><h2>Titre</h2></div>
-            <div class="carrousel__image">
-              <img
-                src="/assets/img/stamp/czech-republic.png"
-                alt="timbre czech-republic"
-              />
-            </div>
-            <div class="carrousel__id">Id:<small>878787878</small></div>
-            <div class="carrousel__prix">Prix: <small>8950$</small></div>
-            <div class="hourglass">
-              <div class="carrousel__temps">
-                Temps restant: <small> 6h39min</small>
-              </div>
-              <i class="fa-regular fa-hourglass-half"></i>
-            </div>
-          </div>
-          <i class="fa-solid fa-chevron-right fa-2x"></i>
-        </div>
-      </section>
-      <section class="participez-encheres">
-        <div class="participez">
-          <h2>
-            Participez à nos enchères de timbres exclusives dès maintenant
-          </h2>
-          <p>
-            Lord Reginald Stampee, Duc de Worcestershear, est une personnalité
-            de renom dans le domaine de la philatélie britannique. Il est né en
-            1945 au sein d'une famille aristocratique et a découvert sa passion
-            pour les timbres dès son plus jeune âge, grâce à son grand-père qui
-            lui a offert sa première collection de timbres. faites partie de
-            l'histoire philatélique.
-          </p>
-        </div>
-        <div class="decouvrir">
-          <img
-            src="/assets/img/stamp/czech-republic.png"
-            alt="timbre czech-republic"
-          />
-          <button class="decouvrir-encheres">Découvrir les Enchères</button>
-        </div>
-      </section>
-    </main>
-    <footer>
-      <div class="info">
-        <div class="adresse">
-          <h3>Stampee</h3>
-          <p>Pie IX</p>
-          <p>1-514-000-0000</p>
-          <p>
-            <a
-              href="https://www.google.com/maps/place/Maisonneuve+College/@45.5508613,-73.5558744,17z/data=!3m1!4b1!4m6!3m5!1s0x4cc91bf5bacbeffd:0x68ff300997eff5c!8m2!3d45.5508613!4d-73.5532995!16zL20vMDU3dHFx?entry=ttu"
-              >3800 Sherbrooke St E
-            </a>
-          </p>
-        </div>
-        <div>
-          <ul>
-            <li><a href="#">Biographie Du Lord Stampee</a></li>
-            <li><a href="#">Politique De Retour</a></li>
-            <li><a href="#">À propos</a></li>
-            <li><a href="#">Enchères</a></li>
-            <li><a href="#">Aide</a></li>
-            <li><a href="">Carrières</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="icones">
-        <i class="fa-brands fa-facebook fa-lg"></i>
-        <i class="fa-brands fa-instagram fa-lg"></i>
-        <i class="fa-regular fa-envelope fa-lg"></i>
-      </div>
-      <p class="droits">© 2024 Team Rodrigue's. Tous droits réservés.</p>
-    </footer>
-  </body>
+        <main>
+            <section class="hero-banner">
+                <h1>Explorez le Monde des Enchères de Timbres avec Stampee</h1>
+                    <p>Lord Reginald Stampee, Duc de Worcestershear,
+                        est une personnalité de renom dans le domaine de
+                        la philatélie britannique. Il est né en 1945 au sein
+                        d'une famille aristocratique et a découvert sa
+                        passion pour les timbres dès son plus jeune âge,
+                        grâce à son grand-père qui lui a offert sa première
+                        collection de timbres.</p>
+                <div class="btn-decouvrir">
+                    <button class="decouvrir-encheres">Découvrir les Enchères</button>
+                </div>
+            </section>
+            <section class="container-timbres">
+                <h2>Enchères actives</h2>
+                <div class="carrousel">
+                  <i class="fa-solid fa-chevron-left fa-2x"></i>
+                  <div class="carrousel__card">
+                    <div class="carrousel__title"><h2>Titre</h2></div>
+                    <div class="carrousel__image">
+                      <img src="/assets/img/stamp/england-london.png" alt="" />
+                    </div>
+                    <div class="carrousel__id"> Id:<small>878787878</small></div>
+                    <div class="carrousel__prix"> Prix: <small>8950$</small></div>
+                    <div class="hourglass">
+            
+                      <div class="carrousel__temps"> Temps restant: <small> 6h39min</small></div>
+                      <i class="fa-regular fa-hourglass-half"></i>
+                    </div>
+                  </div>
+                  <div class="carrousel__card">
+                    <div class="carrousel__title"><h2>Titre</h2></div>
+                    <div class="carrousel__image">
+                      <img src="/assets/img/stamp/forbidden-city.png" alt="timbre forbidden city" />
+                    </div>
+                    <div class="carrousel__id"> Id:<small>878787878</small></div>
+                    <div class="carrousel__prix"> Prix: <small>8950$</small></div>
+                    <div class="hourglass">
+            
+                      <div class="carrousel__temps"> Temps restant: <small> 6h39min</small></div>
+                      <i class="fa-regular fa-hourglass-half"></i>
+                    </div>
+                  </div><div class="carrousel__card">
+                    <div class="carrousel__title"><h2>Titre</h2></div>
+                    <div class="carrousel__image">
+                      <img src="/assets/img/stamp/czech-republic.png" alt="timbre czech-republic" />
+                    </div>
+                    <div class="carrousel__id"> Id:<small>878787878</small></div>
+                    <div class="carrousel__prix"> Prix: <small>8950$</small></div>
+                    <div class="hourglass">
+            
+            
+                      <div class="carrousel__temps"> Temps restant: <small> 6h39min</small></div>
+                      <i class="fa-regular fa-hourglass-half"></i>
+                    </div>
+            
+                  </div>
+                  <i class="fa-solid fa-chevron-right fa-2x"></i>
+                </div>
+            </section>
+            <section class="participez-encheres">
+                <div class="participez">
+                    <h2>Participez à nos enchères
+                        de timbres exclusives dès
+                        maintenant</h2>
+                        <p>Lord Reginald Stampee, Duc de Worcestershear, est
+                            une personnalité de renom dans le domaine de la
+                            philatélie britannique. Il est né en 1945 au sein d'une
+                            famille aristocratique et a découvert sa passion pour
+                            les timbres dès son plus jeune âge, grâce à son
+                            grand-père qui lui a offert sa première collection de
+                            timbres.
+                            faites partie de l'histoire philatélique.</p>
+                </div>
+                        <div class="decouvrir">
+                            <img src="/assets/img/stamp/czech-republic.png" alt="timbre czech-republic">
+                            <button class="decouvrir-encheres">Découvrir les Enchères
+                            </button>
+                        </div>
+
+            </section>
+        </main>
+            <footer>
+                <div class="info">
+                  <div class="adresse">
+                    <h3>Stampee</h3>
+                    <p>Pie IX</p>
+                    <p>1-514-000-0000</p>
+                    <p>
+                      <a
+                        href="https://www.google.com/maps/place/Maisonneuve+College/@45.5508613,-73.5558744,17z/data=!3m1!4b1!4m6!3m5!1s0x4cc91bf5bacbeffd:0x68ff300997eff5c!8m2!3d45.5508613!4d-73.5532995!16zL20vMDU3dHFx?entry=ttu"
+                        >3800 Sherbrooke St E
+                      </a>
+                    </p>
+                  </div>
+                  <div>
+                    <ul>
+                      <li><a href="#">Biographie Du Lord Stampee</a></li>
+                      <li><a href="#">Politique De Retour</a></li>
+                      <li><a href="#">À propos</a></li>
+                      <li><a href="#">Enchères</a></li>
+                      <li><a href="#">Aide</a></li>
+                      <li><a href="">Carrières</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="icones">
+                  <i class="fa-brands fa-facebook fa-lg"></i>
+                  <i class="fa-brands fa-instagram fa-lg"></i>
+                  <i class="fa-regular fa-envelope fa-lg"></i>
+                </div>
+                <p class="droits">© 2024 Team Rodrigue's. Tous droits réservés.</p>
+              </footer>
+        
+    </body>
 </html>

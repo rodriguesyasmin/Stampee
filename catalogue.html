@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Explorez Lord Stampee pour l'achat et la vente de timbres rares. Collection unique, histoires à travers images et designs. Idéal pour passionnés et amateurs."
+    />
     <title>Catalogue</title>
     <link rel="stylesheet" href="assets/css/styles.css" />
     <script src="assets/js/main.js" defer></script>
@@ -19,7 +23,7 @@
   <body>
     <header>
       <div class="header-container">
-        <a href="/"><img src="assets/img/logos/logoLord 1.png" alt="logos"></a>
+        <img src="assets/img/logos/logoLord 1.png" alt="logo du lord stampee" />
         <form action="/" method="get">
           <label for="recherche" class="sr-only">Rechercher :</label>
           <input
@@ -53,18 +57,29 @@
           <div class="contenu-filter">
             <h2>COLLECTIONS</h2>
             <ul>
-              <li><a href="">Collection du Lord</a></li>
-              <li><a href="">Collection rare</a></li>
-              <li><a href="">Collection Stampee</a></li>
-              <li><a href="">Collection ##</a></li>
+              <li>Collection du Lord</li>
+              <li>Collection rare</li>
+              <li>Collection Stampee</li>
+              <li>Collection ##</li>
             </ul>
             <h2>MEILLEURS VENTES</h2>
             <h2>PRIX</h2>
             <div class="min-max">
-              <label for=""> Min: </label
-              ><input type="number" name="number" placeholder="" />
-              <label for="">Max:</label
-              ><input type="number" name="number" placeholder="" />
+              <label for="min-input">Min:</label>
+              <input
+                type="number"
+                id="min-input"
+                name="minNumber"
+                placeholder=""
+              />
+
+              <label for="max-input">Max:</label>
+              <input
+                type="number"
+                id="max-input"
+                name="maxNumber"
+                placeholder=""
+              />
             </div>
           </div>
 
@@ -79,7 +94,9 @@
             <div class="card">
               <div class="card__title"><h2>USA</h2></div>
               <div class="card__image">
-                <img src="/assets/img/stamp/usa.png" alt="" />
+                <a href="/produit.html"
+                  ><img src="/assets/img/stamp/usa.png" alt="Photo timbre usa"
+                /></a>
               </div>
               <div class="card__id">Id:<small>878787878</small></div>
               <div class="card__prix">Prix: <small>8950$</small></div>
@@ -93,7 +110,12 @@
             <div class="card">
               <div class="card__title"><h2>Czech-Republic</h2></div>
               <div class="card__image">
-                <img src="/assets/img/stamp/czech-republic.png" alt="" />
+                <a href="/produit.html">
+                  <img
+                    src="/assets/img/stamp/czech-republic.png"
+                    alt="Photo timbre Czech-Republic "
+                  />
+                </a>
               </div>
               <div class="card__id">Id:<small>878787878</small></div>
               <div class="card__prix">Prix: <small>8950$</small></div>
@@ -108,7 +130,12 @@
             <div class="card">
               <div class="card__title"><h2>London</h2></div>
               <div class="card__image">
-                <img src="/assets/img/stamp/england-london.png" alt="" />
+                <a href="/produit.html">
+                  <img
+                    src="/assets/img/stamp/england-london.png"
+                    alt="Photo timbre London "
+                  />
+                </a>
               </div>
               <div class="card__id">Id:<small>878787878</small></div>
               <div class="card__prix">Prix: <small>8950$</small></div>
@@ -123,7 +150,12 @@
             <div class="card">
               <div class="card__title"><h2>Navajo</h2></div>
               <div class="card__image">
-                <img src="/assets/img/stamp/navajo.png" alt="" />
+                <a href="/produit.html">
+                  <img
+                    src="/assets/img/stamp/navajo.png"
+                    alt="Photo timbre Navajo"
+                  />
+                </a>
               </div>
               <div class="card__id">Id:<small>878787878</small></div>
               <div class="card__prix">Prix: <small>8950$</small></div>
@@ -138,7 +170,12 @@
             <div class="card">
               <div class="card__title"><h2>Taj-Mahal</h2></div>
               <div class="card__image">
-                <img src="/assets/img/stamp/taj-mahal.png" alt="" />
+                <a href="/produit.html">
+                  <img
+                    src="/assets/img/stamp/taj-mahal.png"
+                    alt="Photo timbre Taj-Mahal"
+                  />
+                </a>
               </div>
               <div class="card__id">Id:<small>878787878</small></div>
               <div class="card__prix">Prix: <small>8950$</small></div>
@@ -153,7 +190,12 @@
             <div class="card">
               <div class="card__title"><h2>San-Francisco</h2></div>
               <div class="card__image">
-                <img src="/assets/img/stamp/san-francisco.png" alt="" />
+                <a href="/produit.html">
+                  <img
+                    src="/assets/img/stamp/san-francisco.png"
+                    alt="Photo timbre San-Francisco"
+                  />
+                </a>
               </div>
               <div class="card__id">Id:<small>878787878</small></div>
               <div class="card__prix">Prix: <small>8950$</small></div>
@@ -168,7 +210,12 @@
             <div class="card">
               <div class="card__title"><h2>Republic of india</h2></div>
               <div class="card__image">
-                <img src="/assets/img/stamp/republic-of-india.png" alt="" />
+                <a href="/produit.html">
+                  <img
+                    src="/assets/img/stamp/republic-of-india.png"
+                    alt="Photo timbre Republic of india"
+                  />
+                </a>
               </div>
               <div class="card__id">Id:<small>878787878</small></div>
               <div class="card__prix">Prix: <small>8950$</small></div>
@@ -182,7 +229,12 @@
             <div class="card">
               <div class="card__title"><h2>Parthenon</h2></div>
               <div class="card__image">
-                <img src="/assets/img/stamp/parthenon.png" alt="" />
+                <a href="/produit.html">
+                  <img
+                    src="/assets/img/stamp/parthenon.png"
+                    alt="Photo timbre Parthenon"
+                  />
+                </a>
               </div>
               <div class="card__id">Id:<small>878787878</small></div>
               <div class="card__prix">Prix: <small>8950$</small></div>
@@ -197,7 +249,12 @@
             <div class="card">
               <div class="card__title"><h2>New York</h2></div>
               <div class="card__image">
-                <img src="/assets/img/stamp/ny.png" alt="" />
+                <a href="/produit.html">
+                  <img
+                    src="/assets/img/stamp/ny.png"
+                    alt="Photo timbre New York"
+                  />
+                </a>
               </div>
               <div class="card__id">Id:<small>878787878</small></div>
               <div class="card__prix">Prix: <small>8950$</small></div>
@@ -212,7 +269,12 @@
             <div class="card">
               <div class="card__title"><h2>London</h2></div>
               <div class="card__image">
-                <img src="/assets/img/stamp/london.png" alt="" />
+                <a href="/produit.html">
+                  <img
+                    src="/assets/img/stamp/london.png"
+                    alt="Photo timbre London"
+                  />
+                </a>
               </div>
               <div class="card__id">Id:<small>878787878</small></div>
               <div class="card__prix">Prix: <small>8950$</small></div>
@@ -227,7 +289,12 @@
             <div class="card">
               <div class="card__title"><h2>Forbidden City</h2></div>
               <div class="card__image">
-                <img src="/assets/img/stamp/forbidden-city.png" alt="" />
+                <a href="/produit.html">
+                  <img
+                    src="/assets/img/stamp/forbidden-city.png"
+                    alt="Photo timbre Forbidden City"
+                  />
+                </a>
               </div>
               <div class="card__id">Id:<small>878787878</small></div>
               <div class="card__prix">Prix: <small>8950$</small></div>
@@ -242,7 +309,12 @@
             <div class="card">
               <div class="card__title"><h2>Coliseum</h2></div>
               <div class="card__image">
-                <img src="/assets/img/stamp/coliseum.png" alt="" />
+                <a href="/produit.html">
+                  <img
+                    src="/assets/img/stamp/coliseum.png"
+                    alt="Photo timbre Coliseum"
+                  />
+                </a>
               </div>
               <div class="card__id">Id:<small>878787878</small></div>
               <div class="card__prix">Prix: <small>8950$</small></div>
