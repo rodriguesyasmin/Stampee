@@ -1,0 +1,11 @@
+.hero-banner{
+    background-color: rgba(137, 43, 226, 0.34);
+    padding: var(--spacing-l);
+    & h1{
+        text-align: center;
+    }
+    & p{
+        
+    }
+ 
+}
