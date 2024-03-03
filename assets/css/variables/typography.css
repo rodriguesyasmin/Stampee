@@ -35,7 +35,7 @@ h1 {
 }
 h2 {
   font-size: var(--police-m);
-  line-height: var(--spacing-xl);
+  line-height: var(--spacing-l);
   text-transform: uppercase;
 }
 h3 {
