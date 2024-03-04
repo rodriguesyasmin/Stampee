@@ -10,7 +10,7 @@ header {
       max-width: 6vw;
     }
     & form {
-      margin-left: auto; /* Move o formulário para a direita */
+      margin-left: auto;
 
       & input {
         padding: var(--spacing-s);
@@ -58,7 +58,18 @@ header {
           }
         }
       }
+      & i {
+        display: none;
+      }
     }
+  }
+}
+@media (max-width: 780px) {
+  header .nav-liens ul li a {
+    display: none;
+  }
+  header .nav-liens ul li i {
+    display: block;
   }
 }
 @media (max-width: 480px) {
@@ -71,7 +82,12 @@ header {
       font-size: small;
     }
   }
-
+  header .nav-liens ul li a {
+    display: none;
+  }
+  header .nav-liens ul li i {
+    display: block;
+  }
   input {
     display: none;
   }
