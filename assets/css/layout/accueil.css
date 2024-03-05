@@ -17,7 +17,7 @@
         max-width: 60%;
     }
     h1{
-
+        font-weight: bolder;
         text-align: center;
         color: var(--color-neutral-gray);
     } 
@@ -80,6 +80,5 @@
     .decouvrir-encheres{
         min-width:80%;
         margin:auto;
-   
     }
 }
