@@ -12,7 +12,7 @@
    }
     & .carrousel__card{
         
-        padding: var(--spacing-xs);
+        
         margin:var(--spacing-s);
         display: flex;
         max-width: 29%;
