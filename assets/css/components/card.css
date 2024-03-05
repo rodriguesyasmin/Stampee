@@ -17,7 +17,8 @@
     }
   }
   & h2 {
-    font-size: var(--police-s);
+    font-size: var(--police-m);
+    padding: var(--spacing-m);
   }
   & .card__id,
   .card__prix {
@@ -50,7 +51,7 @@
     }
   }
   & .card__title {
-    padding: var(--space-xs);
+    padding: var(--space-s);
   }
 
   &:hover {
