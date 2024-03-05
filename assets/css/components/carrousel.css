@@ -1,9 +1,15 @@
 .carrousel {
+    
     display: flex;
     justify-content: space-between;
     flex-direction: row;
    align-items: center;
-   
+   & .fa-chevron-left{
+    cursor: pointer;
+   }
+   & .fa-chevron-right{
+    cursor: pointer;
+   }
     & .carrousel__card{
         
         padding: var(--spacing-xs);
@@ -54,9 +60,4 @@
         }
     }
   
-    @media (max-width: 480px) {
-      
-      
-        
-     }
 }

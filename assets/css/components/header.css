@@ -10,24 +10,25 @@ header {
       max-width: 6vw;
     }
     & form {
-      margin-left: auto; /* Move o formulário para a direita */
-      
+      margin-left: auto;
+
       & input {
         padding: var(--spacing-s);
         border-radius: var(--spacing-m);
         width: 350px;
       }
-      button {
+      & button {
         border: none;
       }
     }
     & .icon-container {
       display: flex;
       justify-content: space-between;
-      i {
+      & i {
         margin-left: var(--spacing-m);
+        cursor: pointer;
       }
-      .fa-solid {
+      & .fa-solid {
         color: var(--color-brown);
         &:hover {
           color: var(--color-dark-red);
@@ -39,37 +40,55 @@ header {
   & .nav-liens {
     background-color: var(--color-brown);
     padding: var(--spacing-l);
-    & ul{
-        display: flex;
-        flex-direction: row;
+    & ul {
+      display: flex;
+      flex-direction: row;
 
-        & li{
+      & li {
+        margin-right: var(--spacing-l);
 
-            margin-right: var(--spacing-l);
-      
-            & a{
-                color: var(--color-neutral-gray);
-                text-decoration: none;
-                font-size: var(--police-s);
-                font-weight: bolder;
+        & a {
+          color: var(--color-neutral-gray);
+          text-decoration: none;
+          font-size: var(--police-s);
+          font-weight: bolder;
 
-                &:hover{
-                    color: var(--color-dark-red);
-                }
-            }
+          &:hover {
+            color: var(--color-dark-red);
+          }
         }
-    }
-  }
-  }
-  @media (max-width: 480px) {
-    .header-container{
-      min-height:100px;
-      img{
-        min-width: 15vw;
+      }
+      & i {
+        display: none;
       }
     }
-
-    input{
-      display: none;
+  }
+}
+@media (max-width: 780px) {
+  header .nav-liens ul li a {
+    display: none;
+  }
+  header .nav-liens ul li i {
+    display: block;
+  }
+}
+@media (max-width: 480px) {
+  .header-container {
+    min-height: 100px;
+    img {
+      min-width: 15vw;
+    }
+    a {
+      font-size: small;
     }
   }
+  header .nav-liens ul li a {
+    display: none;
+  }
+  header .nav-liens ul li i {
+    display: block;
+  }
+  input {
+    display: none;
+  }
+}
