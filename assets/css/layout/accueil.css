@@ -19,6 +19,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+ 
   & h1 {
     font-weight: bolder;
     text-align: center;
@@ -84,4 +85,29 @@
         margin:auto;
    
     }
+    .text-container {
+      height: 100%;
+     h1{
+      font-size: var(--police-m);
+      line-height: var(--spacing-l);
+     }
+     p{
+      font-size: 10px;
+      line-height: var(--spacing-m);
+      width:380px ;
+     }
+     
+    }
+  
+
+  
+    .carrousel__card {
+      flex: 0 0 auto;
+      width: 100%; /* Garantir que cada carta ocupe a largura total do carrossel */
+      scroll-snap-align: start; /* Alinhar cada carta ao início da área de rolagem */
+    }
+  
+  
+
+   
 }
