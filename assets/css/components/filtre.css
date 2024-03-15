@@ -7,12 +7,12 @@
 
   & .contenu-filter {
     padding: var(--spacing-s);
-     & .meilleurs-ventes{
+    & .meilleurs-ventes {
       text-decoration: none;
       color: var(--color-dark-red);
       transition: all 0.3s ease;
-     }
-     .meilleurs-ventes:hover {
+    }
+    .meilleurs-ventes:hover {
       cursor: pointer;
       color: var(--color-brown);
       transform: scale(1.02);
@@ -40,8 +40,8 @@
   }
 
   & .subscribeButton {
-    position: sticky; /* Adiciona esta linha */
-    bottom: 0; /* Adiciona esta linha */
+    position: sticky;
+    bottom: 0;
     left: 0;
     color: var(--color-brown);
     padding: var(--spacing-s);
@@ -50,9 +50,11 @@
     flex-direction: column;
     background-color: var(--color-background);
     border-radius: 5px;
+    box-shadow: 0px -1px 6px 0px var(--color-brown);
 
     & label {
       padding: var(--spacing-s);
+      color: var(--color-dark-red);
     }
 
     & #emailInput {

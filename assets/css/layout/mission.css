@@ -17,6 +17,7 @@
       font-family: var(--police-secondaire);
       font-size: var(--police-m);
       text-align: justify;
+      hyphens: auto;
     }
     & .img-lord {
       cursor: pointer;
@@ -38,6 +39,7 @@
       font-family: var(--police-secondaire);
       font-size: var(--police-m);
       text-align: justify;
+      hyphens: auto;
     }
     & strong {
       color: var(--color-red);

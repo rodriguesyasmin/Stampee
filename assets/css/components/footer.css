@@ -1,15 +1,19 @@
 footer {
   background-color: var(--color-background);
-  color: var(--dark-red);
+  color: var(--color-dark-red);
 }
 .info {
   padding: var(--spacing-l);
   display: flex;
+  & h3 {
+    color: var(--color-brown);
+    text-shadow: 1px 1px 1px var(--color-brown);
+  }
 
   & li,
   a {
     padding: var(--spacing-s);
-    color: var(--dark-red);
+    color: var(--color-dark-red);
     text-decoration: none;
   }
   & a:hover {
@@ -24,7 +28,7 @@ footer {
   }
   & .adresse a {
     padding: 0;
-    color: var(--color-brown);
+    color: var(--color-dark-red);
   }
 }
 .icones {
