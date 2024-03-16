@@ -49,4 +49,7 @@
     margin: auto;
     width: 100px;
   }
+  .miser{
+    display: block;
+  }
 }
